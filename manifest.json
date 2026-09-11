@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "wulfkaal.gb10",
+  "name": "Cluster Desk",
+  "version": "0.2.0",
+  "author": "wulfkaal",
+  "license": "MIT",
+  "description": "Read-only cluster telemetry desk for Omarchy: nodes, GPUs, workloads, model residency and up to 100 agents. Configurable workspace; local JSON input; no network access.",
+  "kinds": [
+    "service",
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "ClusterDesk.qml",
+    "overlay": "Overlay.qml"
+  }
+}

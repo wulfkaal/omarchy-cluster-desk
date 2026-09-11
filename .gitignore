@@ -1,0 +1,4 @@
+.cluster-test-*/
+.test-*/
+node_modules/
+*.log
